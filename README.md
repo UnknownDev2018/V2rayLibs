@@ -21,10 +21,10 @@ Example (used in this app):
   "protocol": "vless",
   "settings": {
     "vnext": [{
-      "address": "51.38.231.153",
+      "address": "SERVER_IP",
       "port": 8080,
       "users": [{
-        "id": "b7b74f9d-66e6-438b-b494-4efd36ef39b4",
+        "id": "UUID",
         "encryption": "none",
         "flow": ""
       }]
@@ -32,7 +32,9 @@ Example (used in this app):
   },
   "streamSettings": {
     "network": "xhttp",
-    "xhttpSettings": {"path": "/udpguard"}
+    "xhttpSettings": {
+      "path": "/your-path"
+    }
   }
 }
 ```
