@@ -1,7 +1,7 @@
 ```markdown
 # UnknownDeVPN
 
-**Simple & beautiful V2Ray (VLESS/XHTTP) VPN client for Android**  
+**Simple & beautiful V2Ray VPN client for Android**  
 Built with Jetpack Compose + v2raylibs
 
 ---
